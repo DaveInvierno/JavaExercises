@@ -1,6 +1,11 @@
 
 package examples;
 
+interface MonsterStats {
+	int DAMAGE = 10;
+	int HEALTH = 100;
+}
+
 abstract class TwoDShape {
 	private double width;
 	private double height;
